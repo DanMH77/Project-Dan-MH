@@ -14,7 +14,7 @@
     --green: #2c7b90;}
 /* Modificar fondo */
 body{
-  background-image: url(https://i.pinimg.com/originals/5b/1d/a1/5b1da18b93449c2699ea8c95f1a16e76.gif);
+  background-image: url(https://fondosmil.com/fondo/17010.jpg);
   background-size: cover;
    font-family: 'Prompt', sans-serif;
 }
@@ -69,12 +69,14 @@ color: rgb(0, 232, 105);
 }
  /*Task section*/
 .taskSection h3{
- color: var(--white);
+ color: black;
  margin-bottom: 20px;
+ font-size: 20px;
 }
 .taskSection li{
 display: flex;
-background: linear-gradient(to bottom,var(--green), var(--purple));
+background-image: url(https://images2.alphacoders.com/130/1308322.jpeg);
+background-size: cover ;
 border-radius: 15px;
 padding: 10px;
 align-items: center;
@@ -83,13 +85,16 @@ margin: 5px 0;
 }
 .taskSection i{
     font-size: 25px;
+    color: rgb(195, 201,208);
 }
 .taskSection i:hover{
     color: blue;
     cursor: pointer;
+    transform: scale(1.1);
 }
 .taskSection >ul p{
 font-size: 1.2rem;
+color: rgb(175, 187, 136);
 }
 line-through{
     text-decoration: line-through;
