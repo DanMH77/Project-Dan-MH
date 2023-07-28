@@ -27,7 +27,7 @@ body{
     letter-spacing: 1px;
 }
 #date {
-    color: var(--purple);
+    color: rgb(238, 28, 238);
     padding: 50px 0 5px 0;
 }
 /*Add Task*/
@@ -99,6 +99,27 @@ color: rgb(175, 187, 136);
 line-through{
     text-decoration: line-through;
     color: #00c8ff;
+}
+
+
+    /* Area del contador  */
+#counter{
+   color: azure;
+   align-items: center;
+   display: flex;
+   justify-content: space-around;
+ border-radius: 15px;
+ position: fixed;
+ right: 0;
+}
+
+#account{
+    font-size: 50px;
+    border-radius: 15px;
+    max-width: 40px;
+}
+.finalText{
+    color: var(--white);
 }
 
 /* cambios Jeffer */
